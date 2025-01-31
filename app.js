@@ -46,6 +46,13 @@ inp.addEventListener("keydown", function (event) {
 btn.addEventListener("click", function () {
     let task = document.createElement("li");
     task.innerText = inp.value;
+
+    let del = document.createElement("button");
+    del.innerText = "delete";
+    del.classList.add("delete");
+
+    task.appendChild(del);
+    
     ul.append(task);
 });
 
