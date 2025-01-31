@@ -52,8 +52,8 @@ btn.addEventListener("click", function () {
     del.classList.add("delete");
 
     task.appendChild(del);
-    
     ul.append(task);
+    inp.value = "";
 });
 
 ul.addEventListener("click", function (event) {
