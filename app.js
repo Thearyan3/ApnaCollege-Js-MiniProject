@@ -1,4 +1,4 @@
-// 1. Event Bubbling - Jab hamare html ke andar bhot sare nested elements hote h aur har ek element ka ek eventlistener hota h to jitne bhi internal elements ke event listener honge vo bahar wale elements ke event listeners ko bhi target krenge. Isi phenomena ko Event Bubbling bolte h. 
+// 1. Event Bubbling - Jab hamare html ke andar bhot sare nested elements hote h aur har ek element ka ek eventlistener hota h to jitne bhi internal elements ke event listener honge vo bahar wale elements ke event listeners ko bhi trigger krenge. Isi phenomena ko Event Bubbling bolte h. 
 
 // let div = document.querySelector("div");
 // let ul = document.querySelector("ul");
